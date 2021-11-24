@@ -6,4 +6,4 @@ ADD https://www.free-css.com/assets/files/free-css-templates/download/page273/sp
 WORKDIR /usr/local/apache2/htdocs/
 RUN unzip speed.zip
 RUN cp -rvf speed/* .
-RUN rm -rf speed.zip speed
+#RUN rm -rf speed.zip speed
